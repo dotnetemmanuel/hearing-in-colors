@@ -22,7 +22,7 @@ window.DATA = {
     december: { c: "#f2823b", en: "December", sv: "december" },
     summer: { c: "#d7be3d", en: "summer", sv: "sommar" },
     autumn: { c: "#a362f9", en: "autumn", sv: "höst" },
-    winter: { c: "#ffdee7", en: "winter", sv: "vinter" },
+    winter: { c: "#d2ecff", en: "winter", sv: "vinter" },
     myself: { c: "#ffc760", en: "myself", sv: "mig själv" },
     i: { c: "#ffc760", en: "I", sv: "jag" },
     "my-wife": { c: "#2b681e", en: "My wife", sv: "Min fru" },
@@ -52,7 +52,7 @@ window.DATA = {
 
   week: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
   year: ["january", "february", "march", "april", "may", "june", "july", "august", "september", "october", "november", "december"],
-  unexpected: ["calm", "anger", "joy", "fear", "autumn", "winter"],
+  unexpected: ["calm", "anger", "joy", "fear", "autumn"],
   expected: ["love", "death"],
   greens: ["silence", "joy", "sleep", "truth", "september"],
   yellows: ["myself", "my-youngest", "thursday", "january", "summer", "midsummer", "sweden", "ziggy"],
