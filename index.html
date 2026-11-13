@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Hearing in colors</title>
+  <meta name="description" content="My wife is green, calm is pink and anger is plum. A personal look at my synesthesia, where days, words, people and songs each have an exact color.">
+  <meta property="og:title" content="My wife is green, calm is pink and anger is plum: hearing in colors">
+  <meta property="og:description" content="A personal look at my synesthesia, where days, words, people and songs each have an exact color. And no, I can't explain it.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://dotnetemmanuel.github.io/hearing-in-colors/">
+  <meta property="og:image" content="https://dotnetemmanuel.github.io/hearing-in-colors/preview.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <meta name="theme-color" content="#f7f7f6">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Crimson+Pro:wght@400;500;600;800&display=swap">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="lang" role="group" data-t-aria="langLabel" aria-label="Language">
+    <button type="button" data-lang="en">EN</button>
+    <button type="button" data-lang="sv-se">SV</button>
+  </div>
+
+  <main>
+    <header class="hero">
+      <h1><span class="title" data-t="title"></span><span class="sr">: </span><span class="tail" data-t="titleTail"></span></h1>
+      <p class="sentence" data-t="sentence"></p>
+      <p class="cap" data-t="sentenceCap"></p>
+      <noscript><p class="cap">This page needs JavaScript to show its colors.</p></noscript>
+    </header>
+
+    <section>
+      <h2 data-t="whatH"></h2>
+      <p data-t="what1"></p>
+      <p data-t="what2"></p>
+      <p class="show" data-t="sameDay"></p>
+      <p data-t="what3"></p>
+      <p class="show" data-t="iMyself"></p>
+    </section>
+
+    <section>
+      <h2 data-t="weekH"></h2>
+      <p data-t="week1"></p>
+      <div class="dots" data-dots="week"></div>
+      <div class="dots dots-year" data-dots="year"></div>
+    </section>
+
+    <section class="grey">
+      <h2 data-t="greyH"></h2>
+      <div class="solo" style="--c:#aaaca2"></div>
+      <div class="solo-label" data-concept="colleague"></div>
+      <p data-t="grey1"></p>
+      <p data-t="grey2"></p>
+      <p data-t="grey3"></p>
+    </section>
+
+    <section>
+      <h2 data-t="unexpH"></h2>
+      <p data-t="unexp1"></p>
+      <div class="words" data-words="unexpected"></div>
+      <p data-t="unexp2"></p>
+    </section>
+
+    <section>
+      <h2 data-t="sameH"></h2>
+      <p data-t="same1"></p>
+      <div class="merge" data-merge="greens"></div>
+      <p data-t="same2"></p>
+      <div class="dots dots-four" data-dots="yellows"></div>
+    </section>
+
+    <section>
+      <h2 data-t="glowH"></h2>
+      <p data-t="glow1"></p>
+      <p data-t="glow2"></p>
+      <div class="dots dots-glow" data-dots="glowing"></div>
+      <p data-t="glow3"></p>
+      <div class="dots dots-small" data-dots="songs"></div>
+    </section>
+
+    <section>
+      <h2 data-t="outH"></h2>
+      <p data-t="out1"></p>
+      <div class="dots dots-small">
+        <div class="item"><div class="dot empty"></div><span data-t="sea"></span></div>
+        <div class="item"><div class="dot empty"></div><span data-t="forest"></span></div>
+      </div>
+      <p data-t="out2"></p>
+    </section>
+  </main>
+
+  <footer><p data-t="foot"></p></footer>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
