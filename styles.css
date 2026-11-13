@@ -53,13 +53,11 @@ main, footer {
 button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
 
 .hero {
-  min-height: 92vh;
-  min-height: 92svh;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 28px;
-  padding-block: 96px 48px;
+  gap: 20px;
+  padding-block: 84px 44px;
 }
 h1 { margin: 0; font-family: var(--display); color: var(--fg); }
 h1 .title {
@@ -80,7 +78,7 @@ h1 .tail {
   text-wrap: balance;
 }
 .sentence {
-  margin: 28px 0 0;
+  margin: 14px 0 0;
   font-family: var(--display);
   font-size: clamp(26px, 4.4vw, 42px);
   line-height: 1.2;
@@ -90,7 +88,7 @@ h1 .tail {
 }
 .cap { margin: 0; color: var(--muted); font-size: 16px; }
 
-section { padding-block: 64px; border-top: 1px solid var(--line); }
+section { padding-block: 40px; border-top: 1px solid var(--line); }
 h2 {
   font-family: var(--display);
   font-weight: 800;
@@ -98,16 +96,16 @@ h2 {
   line-height: 1.1;
   letter-spacing: -0.02em;
   color: var(--fg);
-  margin: 0 0 22px;
+  margin: 0 0 16px;
   text-wrap: balance;
 }
-section p { max-width: 62ch; margin: 0 0 18px; }
+section p { max-width: 62ch; margin: 0 0 14px; }
 .show {
   font-family: var(--display);
   font-weight: 800;
   font-size: clamp(28px, 5vw, 44px);
   line-height: 1.2;
-  margin-block: 8px 30px;
+  margin-block: 4px 18px;
   color: var(--unlit);
 }
 
@@ -121,14 +119,14 @@ section p { max-width: 62ch; margin: 0 0 18px; }
 .dots {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(92px, 1fr));
-  gap: 26px 10px;
-  margin: 34px 0 40px;
+  gap: 20px 10px;
+  margin: 22px 0 26px;
 }
 .dots-year { grid-template-columns: repeat(auto-fill, minmax(80px, 1fr)); }
 .dots-small { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
 .dots-four { grid-template-columns: repeat(4, minmax(0, 1fr)); }
 .dots-four .dot { width: 50px; height: 50px; }
-.dots-glow { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 44px 16px; margin-block: 52px 56px; }
+.dots-glow { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 36px 16px; margin-block: 36px 38px; }
 .item {
   display: flex;
   flex-direction: column;
@@ -171,7 +169,7 @@ section p { max-width: 62ch; margin: 0 0 18px; }
   aspect-ratio: 1;
   border-radius: 50%;
   background: var(--c);
-  margin: 40px auto 14px;
+  margin: 24px auto 12px;
   animation: breathe 8s ease-in-out infinite;
 }
 .solo-label {
@@ -179,14 +177,14 @@ section p { max-width: 62ch; margin: 0 0 18px; }
   letter-spacing: .14em;
   text-transform: uppercase;
   color: var(--muted);
-  margin-bottom: 40px;
+  margin-bottom: 24px;
 }
 
 .words {
   display: flex;
   flex-wrap: wrap;
   gap: 6px 34px;
-  margin: 30px 0 34px;
+  margin: 18px 0 22px;
   font-family: var(--display);
   font-weight: 800;
   font-size: clamp(40px, 8vw, 72px);
@@ -197,7 +195,7 @@ section p { max-width: 62ch; margin: 0 0 18px; }
 .merge {
   position: relative;
   height: 96px;
-  margin: 40px 0 8px;
+  margin: 24px 0 6px;
   --s: 80px;
 }
 .merge .dot {
@@ -216,16 +214,16 @@ section p { max-width: 62ch; margin: 0 0 18px; }
   gap: 6px;
   font-size: 14px;
   font-weight: 600;
-  margin-bottom: 36px;
+  margin-bottom: 24px;
 }
 
 .sr { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-footer { padding-block: 40px 72px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
+footer { padding-block: 28px 48px; border-top: 1px solid var(--line); color: var(--muted); font-size: 14px; }
 footer p { max-width: 62ch; margin: 0; }
 
 @media (max-width: 520px) {
   body { font-size: 19px; }
-  section { padding-block: 52px; }
+  section { padding-block: 32px; }
   .merge { --s: 58px; height: 74px; }
   .merge-labels { font-size: 12px; }
 }
