@@ -67,7 +67,7 @@ window.DATA = {
     en: {
       docTitle: "I hear in colors",
       title: "[[my-wife]] is green, [[calm]] is pink and [[anger]] is plum",
-      titleTail: "[[i|I]] hear in colors, and no, [[i|I]] can't explain it",
+      titleTail: "[[i|I]] hear in colors, and no, [[i|I]] can't tell you why",
       sentence: "On [[thursday]] in [[june]], [[i]] [[walked]] [[down]] [[vasagatan]].",
       sentenceCap: "This is what reading a sentence is like for me.",
       joke: "Fair warning: hearing colors doesn't automatically make you good at web design. If anything, it makes it trickier. Every word on this page already has a color of its own, and none of them match.",
@@ -113,7 +113,7 @@ window.DATA = {
     sv: {
       docTitle: "Jag hör i färger",
       title: "[[my-wife]] är grön, [[calm]] är rosa och [[anger]] är plommonlila",
-      titleTail: "[[i|jag]] hör i färger, och nej, [[i|jag]] kan inte förklara det",
+      titleTail: "[[i|jag]] hör i färger, och nej, [[i|jag]] kan inte säga varför",
       sentence: "En [[thursday]] i [[june]] [[walked]] [[i]] [[down]] [[vasagatan]].",
       sentenceCap: "Så här är det för mig att läsa en mening.",
       joke: "Ett förbehåll: att höra färger gör en inte automatiskt bra på webbdesign. Snarare tvärtom. Varje ord på den här sidan har redan en egen färg, och ingen av dem matchar.",
