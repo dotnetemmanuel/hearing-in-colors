@@ -57,7 +57,9 @@ button:focus-visible { outline: 2px solid var(--fg); outline-offset: 2px; }
   flex-direction: column;
   justify-content: center;
   gap: 20px;
-  padding-block: 84px 44px;
+  min-height: 72vh;
+  min-height: 72svh;
+  padding-block: 84px 48px;
 }
 h1 { margin: 0; font-family: var(--display); color: var(--fg); }
 h1 .title {
@@ -87,6 +89,7 @@ h1 .tail {
   text-wrap: balance;
 }
 .cap { margin: 0; color: var(--muted); font-size: 16px; }
+.joke { margin: 18px 0 0; max-width: 44ch; color: var(--muted); font-size: 17px; font-style: italic; }
 
 section { padding-block: 40px; border-top: 1px solid var(--line); }
 h2 {
