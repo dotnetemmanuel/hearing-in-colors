@@ -1,4 +1,4 @@
-# Hearing in colors
+# I hear in colors
 
 My wife is green, calm is pink and anger is plum. A one-page site about my synesthesia, where concepts each have an exact color.
 

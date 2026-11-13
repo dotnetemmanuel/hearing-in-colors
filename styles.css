@@ -103,6 +103,7 @@ h2 {
   text-wrap: balance;
 }
 section p { max-width: 62ch; margin: 0 0 14px; }
+section p:not(.show) .c, footer p .c { font-weight: 600; }
 .show {
   font-family: var(--display);
   font-weight: 800;
