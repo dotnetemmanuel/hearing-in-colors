@@ -26,9 +26,8 @@
   function songExtra(key) {
     const c = concepts[key];
     if (!c.artist) return "";
-    const q = encodeURIComponent(`${c.artist} ${c.en}`);
     const aria = text[lang].listenAria.replace("{song}", c.en).replace("{artist}", c.artist);
-    return `<small>${esc(c.artist)}</small><a href="https://www.youtube.com/results?search_query=${q}" target="_blank" rel="noopener" aria-label="${esc(aria)}">${esc(text[lang].listen)}</a>`;
+    return `<small>${esc(c.artist)}</small><a href="https://www.youtube.com/watch?v=${c.yt}" target="_blank" rel="noopener" aria-label="${esc(aria)}">${esc(text[lang].listen)}</a>`;
   }
 
   function glowExtra(key) {
