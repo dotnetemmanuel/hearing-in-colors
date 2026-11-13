@@ -99,7 +99,7 @@ window.DATA = {
       out2: "Countries are tricky. [[sweden]] is yellow and [[france]] is blue, and I can't tell whether the flags have anything to do with it.",
       sea: "the sea",
       forest: "the forest",
-      foot: "Every color here was picked by me, tone by tone, in a honeycomb color picker on a light screen. Your screen may show them a little differently.",
+      foot: "I didn't choose these colors. They are simply what I perceive. All I did was match each one, tone by tone, in a honeycomb color picker on a light screen. Your screen may show them a little differently.",
       langLabel: "Language",
     },
     sv: {
@@ -140,7 +140,7 @@ window.DATA = {
       out2: "Länder är kluriga. [[sweden]] är gult och [[france]] är blått, och jag kan inte avgöra om flaggorna har något med saken att göra.",
       sea: "havet",
       forest: "skogen",
-      foot: "Varje färg här har jag själv valt, ton för ton, i en färgväljare på en ljus skärm. Din skärm kan visa dem lite annorlunda.",
+      foot: "Jag har inte valt de här färgerna. De är helt enkelt vad jag uppfattar. Det enda jag gjorde var att matcha var och en, ton för ton, i en färgväljare på en ljus skärm. Din skärm kan visa dem lite annorlunda.",
       langLabel: "Språk",
     },
   },
