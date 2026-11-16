@@ -1,4 +1,4 @@
-// Snapshot of the collector (claude.ai/artifact/Gvwd2jxsJMCCHQfCRNgFPU), 2026-11-13.
+// Snapshot of the collector (claude.ai/artifact/Gvwd2jxsJMCCHQfCRNgFPU), 2026-11-16.
 window.DATA = {
   concepts: {
     monday: { c: "#8f2540", en: "Monday", sv: "måndag" },
@@ -51,6 +51,7 @@ window.DATA = {
     superfreaky: { c: "#451690", g: 2, en: "Superfreaky Memories", sv: "Superfreaky Memories", artist: "Luna", yt: "_-YqjbWaklg" },
     oasis: { c: "#2e743e", en: "Don't Look Back in Anger", sv: "Don't Look Back in Anger", artist: "Oasis", yt: "oplra1FJxWI" },
     something: { c: "#963200", en: "Something", sv: "Something", artist: "The Beatles", yt: "VWO3nEuWo4k" },
+    everybody: { c: "#358756", g: 2, en: "Everybody's Gotta Learn Sometime", sv: "Everybody's Gotta Learn Sometime", artist: "Beck", yt: "s3ifFET2fgs" },
   },
 
   week: ["monday", "tuesday", "wednesday", "thursday", "friday", "saturday", "sunday"],
@@ -59,7 +60,7 @@ window.DATA = {
   expected: ["love", "death"],
   greens: ["silence", "joy", "sleep", "truth", "september"],
   yellows: ["myself", "my-youngest", "thursday", "january", "summer", "midsummer", "sweden", "ziggy"],
-  glowing: ["june", "hang", "superfreaky"],
+  glowing: ["june", "hang", "superfreaky", "everybody"],
   songs: ["ziggy", "oasis", "something"],
 
   // [[key]] colors a concept with its own label; [[key|text]] colors custom text.
